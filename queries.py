@@ -23,7 +23,7 @@ def query_all_payments():
 
 def query_mrr():
     '''
-    Query que retorna todos os pagamentos feitos por todos os clientes
+    Query que retorna MRR
     '''
     query_job = client.query("""
     SELECT EXTRACT(ISOYEAR FROM tb.payment_date) AS year, 
@@ -45,7 +45,7 @@ def query_mrr():
 
 def query_new_mrr():
     '''
-    Query que retorna todos os pagamentos feitos por todos os clientes
+    Query que retorna o New MRR
     '''
     query_job = client.query("""
     SELECT first_payment_year, 
@@ -83,7 +83,7 @@ def query_new_mrr():
 
 def query_expansion_mrr():
     '''
-    Query que retorna todos os pagamentos feitos por todos os clientes
+    Query que retorna o Expansion MRR
     '''
     query_job = client.query("""
     SELECT
@@ -108,7 +108,7 @@ def query_expansion_mrr():
 
 def query_contraction_mrr():
     '''
-    Query que retorna todos os pagamentos feitos por todos os clientes
+    Query que retorna o Contraction MRR
     '''
     query_job = client.query("""
     SELECT
@@ -133,7 +133,7 @@ def query_contraction_mrr():
 
 def query_cancelled_mrr():
     '''
-    Query que retorna todos os pagamentos feitos por todos os clientes
+    Query que retorna o Cancelled MRR
     '''
     query_job = client.query("""
     SELECT 
@@ -168,7 +168,7 @@ def query_cancelled_mrr():
 
 def query_resurrected_mrr():
     '''
-    Query que retorna todos os pagamentos feitos por todos os clientes
+    Query que retorna o Resurrected MRR
     '''
     query_job = client.query("""
     SELECT 
