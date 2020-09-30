@@ -1,8 +1,6 @@
 # Mercos Data Engineer Test
 
-Boa tarde pessoal, após uma semana de intenso aprendizado aqui está o compilado de tudo que eu consegui fazer, segui as orientações do documento, utilizei scripts em Python, tomei uma surra de SQL (confesso que achei que eu era melhor nessa linguagem), e pra datawarehouse e relatórios eu escolhi a stack do Google Cloud Platform por ser a stack utilizada pela Mercos, em termos de conhecimento eu era igualmente ignorante para essa e todas as outras stacks então decidi aprender essa do zero.
-
-Durante essa semana, dediquei todo meu tempo nesse trabalho e devo admitir que me diverti mais do que esperava, por restrições de tempo (e da minha competência) eu não consegui fazer tudo que queria, então ao final do documento vou citar algumas ações que poderiam ser tomadas na sequência para melhorar a atual data pipeline. Então sem mais delongas, vamos ao que interessa.
+Boa tarde pessoal, após uma semana de intenso aprendizado aqui está o compilado de tudo que eu consegui fazer, segui as orientações do documento, utilizei scripts em Python, SQL, e pra datawarehouse e relatórios eu escolhi a stack do Google Cloud Platform por ser a stack utilizada pela Mercos.
 
 ### Extração dos dados
 
